@@ -50,6 +50,6 @@ app.get("/products", (request, response) => {
     response.json(productList)
 });
 
-app.listen(4500, () => {
-    console.log("Listen on the port 4500...");
+app.listen(8080, () => {
+    console.log("Listen on the port 8080...");
 });
